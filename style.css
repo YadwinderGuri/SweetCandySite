@@ -1,0 +1,167 @@
+
+html{
+  
+    scroll-behavior: smooth;
+}
+header{
+
+    display: flex;
+     background-color: rgb(215, 116, 50);
+    background-size: cover;
+     
+ }
+ header div{
+    margin-top: 20px;
+   
+ }
+ header nav {
+    margin-top: 40px;
+   
+ }
+ body{
+   font-family: 'Fredoka One';
+ }
+ menu :hover{
+  background-color:rgb(95, 53, 25) ;
+ }
+ nav li {
+
+        display: inline;
+        padding: 10px;
+       margin-inline: 40px;
+       background-color: #ffffff; 
+        border-radius: 5px;
+    
+}
+nav li a {
+    text-decoration:none;
+    color: rgb(215, 116, 50);
+}
+
+main h2{
+  text-align: center;
+  color: rgb(215, 116, 50);
+  background-color: #ffffff;
+}
+
+.image1 {
+    width: 40%;
+    height: 70%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    background-size: contain;
+  }
+  .multipleimages {
+    background-image: url("img/werthers2.jpg"), url("img/werthers1.png") ;
+    background-repeat: no-repeat;
+    background-size: 200px, 150px, 100px;
+    padding: 50px;
+    text-align: center;
+    color:rgb(95, 53, 25);
+    background-position: left top, right top;
+    background-size: contain;
+    
+  }
+  .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.image-container {
+  position: relative;
+
+}
+.content:hover {
+  color:  rgb(215, 116, 50);
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color:rgb(95, 53, 25);
+  font-size: 20px;
+}
+  #products{
+
+  }
+  #products h3,p{
+    
+    color:rgb(215, 116, 50);
+  font-size: 36px;
+  text-align: center;
+  }
+  #products h3{
+    
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  .footer1{
+    background-image: url("img/werthers2.jpg");
+   background-size: contain;
+  }
+
+  footer {
+    background-color: #ffffff;
+    padding: 40px 0;
+  }
+  
+  footer h4 {
+    color: rgb(215, 116, 50);
+    font-size: 35px;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  footer p {
+    color: rgb(215, 116, 50);
+    font-size: 25px;
+    line-height: 1.5;
+  }
+  
+  footer form {
+    margin-top: 20px;
+  }
+  footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+ 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+}
+
+footer button[type="submit"] {
+  background-color: #f44336;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+footer button[type="submit"]:hover {
+  background-color: #d32f2f;
+}
